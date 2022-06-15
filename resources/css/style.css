@@ -152,7 +152,8 @@ li {
   text-underline-color: #122341;
 }
 
-#experience em {
+#experience em,
+#education em {
   font-weight: 375;
   font-size: 14px;
   padding-left: .25%;
@@ -198,8 +199,13 @@ footer {
 }
 
 @media only screen and (max-width : 893px) {
+  .container h1 {
+    font-size: 42px;
+    margin-bottom: 0;
+  }
   .container h2 {
     line-height: normal;
+    font-size: 22px;
     margin-bottom: 1.5%;
   }
   .container h4 {
@@ -210,5 +216,8 @@ footer {
     line-height: normal;
     margin-bottom: 0;
     margin-top: 1%;
+  }
+  nav a {
+    font-size: 14px;
   }
 }

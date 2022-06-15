@@ -1,6 +1,8 @@
 /* universal */
 
 html, body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
   margin: 0;
   padding: 0;
   background-color: whitesmoke;
@@ -200,8 +202,9 @@ footer {
 
 @media only screen and (max-width : 893px) {
   .container h1 {
-    font-size: 42px;
+    font-size: 40px;
     margin-bottom: 0;
+    line-height: normal;
   }
   .container h2 {
     line-height: normal;
@@ -210,6 +213,8 @@ footer {
   }
   .container h4 {
     margin-top: 0;
+    line-height: normal;
+    font-size: 16px;
   }
   #experience p,
   #education p {
@@ -218,6 +223,6 @@ footer {
     margin-top: 1%;
   }
   nav a {
-    font-size: 14px;
+    font-size: 90%;
   }
 }
